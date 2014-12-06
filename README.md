@@ -28,7 +28,7 @@ for elements (recommended).
 
 As soon as a view is rendered through Handlebars any template that has been used 
 is loaded into the global scripts array and rendered as inline template. It works by 
-using the `$script_for_layout`, which you should have echo'd in your layout.
+using the `$scripts_for_layout`, which you should have echo'd in your layout.
 
 ```html
 <!-- example output -->
