@@ -20,9 +20,9 @@ has one of the supported file extensions:
 - `*.hbs`
 - `*.handlebars`
 
-They can live happily aside any existing `.ctp` file. You can mix and 
-match your template rendering as you see fit or even only use handlebars 
-for elements (recommended).
+They can live happily next to any existing `.ctp` file in your project. You 
+can mix and match your template rendering as you see fit or even only 
+use Handlebars for elements (recommended).
 
 #### Auto Script Tags
 
@@ -41,13 +41,16 @@ This way you can share them with your Javascript.
 
 ### Notes
 
-- This view won't magiacally transform your CakePHP Helpers to Handlebars Helpers. 
+- Handlebars templates are served and consumed raw, just like the Javascript version.
+- This view won't magically transform your CakePHP Helpers to Handlebars Helpers. 
 - The focus was on creating and parsing reusable/shareable snippets.
 - I probably wouldn't try to write the main layout template in Handlebars. 
-- Handlebars templates are served and consumed raw, just like the Javascript version.
 
 ### Upgrading
 
-The vendor files are managed by Composer so it should only be a matter of typing `composer update`.
+The vendor files are managed by Composer so it should only be a matter of typing:
+
+`composer update`
+
 
 
