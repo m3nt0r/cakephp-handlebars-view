@@ -1,0 +1,14 @@
+{
+    "name": "m3nt0r/cakephp-handlebars",
+    "description": "cakephp 1.x plugin to render .hbs templates",
+    "license": "MIT",
+    "authors": [
+        {"name": "Kjell Bublitz"}
+    ],
+    "require": {
+        "xamin/handlebars.php": "~0.9"
+    },
+    "config": {
+      "vendor-dir": "./vendors"
+    }
+}

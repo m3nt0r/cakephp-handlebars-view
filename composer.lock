@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "17862f8597e91fbbcfc374d6a46bfdf7",
+    "packages": [
+        {
+            "name": "xamin/handlebars.php",
+            "version": "v0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/XaminProject/handlebars.php.git",
+                "reference": "ec108c0bac7fe45be5a93e388be45ed9f24872c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/XaminProject/handlebars.php/zipball/ec108c0bac7fe45be5a93e388be45ed9f24872c4",
+                "reference": "ec108c0bac7fe45be5a93e388be45ed9f24872c4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable",
+                "squizlabs/php_codesniffer": "@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Handlebars": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fzerorubigd",
+                    "email": "fzerorubigd@gmail.com"
+                },
+                {
+                    "name": "Behrooz Shabani (everplays)",
+                    "email": "everplays@gmail.com"
+                }
+            ],
+            "description": "Handlebars processor for php",
+            "homepage": "https://github.com/XaminProject/handlebars.php",
+            "time": "2014-09-07 17:31:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
